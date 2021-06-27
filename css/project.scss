@@ -1,0 +1,173 @@
+$yellow: #eebf63;
+$ligth-turquoise: #90c0e8;
+$light-green: #6fc2c5;
+$taba: #cd921e;
+$dark-navy-blue: #486074;
+$dark-green: #386163;
+// TEXT COLORS //
+$black: #1c1c1c;
+$light-black: #2f2f2f;
+$gray: #828282;
+$light-gray: #e1e1e1;
+$white1: #f1f1f1;
+$white: #ffff;
+$nav-black: #151517;
+
+header {
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  margin-top: 8rem;
+  align-items: center;
+  border-bottom: 2px solid #e1e1e1;
+  h4 {
+    color: $gray;
+  }
+  h1 {
+    width: 100%;
+    font-size: 3rem;
+  }
+  .portfolio-details {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .portfolio-details-box {
+      width: 100%;
+      display: flex;
+
+      .portfoli-details-one {
+        width: 10%;
+        .portfolio-details-number {
+          display: inline-block;
+          font-weight: bold;
+          font-size: 1.2rem;
+        }
+        .portfolio-details-text {
+          font-size: 1rem;
+          color: $gray;
+        }
+      }
+      .portfoli-details-two {
+        width: 20%;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 1.2rem;
+        .portfolio-details-text {
+          font-size: 1rem;
+          color: $gray;
+        }
+      }
+    }
+  }
+}
+section {
+  width: 70%;
+  margin: auto;
+  margin-top: 3rem;
+}
+.keyboard {
+  width: 70%;
+  .keyboard-image {
+    img {
+      width: 100%;
+    }
+
+    .new-interface {
+      text-align: center;
+      font-style: italic;
+    }
+  }
+}
+.old-interface {
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    color: $gray;
+    font-size: 1rem;
+  }
+  img {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .image-under-text {
+    text-align: center;
+    font-style: italic;
+  }
+}
+.progress {
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  p {
+    color: $gray;
+  }
+  img {
+    margin-top: 3rem;
+    width: 100%;
+  }
+  .final {
+    text-align: center;
+    color: $gray;
+    font-style: italic;
+  }
+  .border-bottom {
+    margin-top: 7rem;
+    border: 1px solid #e1e1e1;
+  }
+}
+.recent {
+  h1 {
+    margin-top: 4rem;
+    font-size: 4rem;
+  }
+}
+article {
+  width: 70%;
+  margin: auto;
+  background: transparent;
+  h2 {
+    font-size: 3rem;
+    color: $black;
+    justify-content: left;
+  }
+  .article-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .Minify {
+      width: 40%;
+      img {
+        width: 100%;
+      }
+    }
+    .ant {
+      width: 40%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+footer {
+  margin-top: 14rem;
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: $black;
+    img {
+      vertical-align: middle;
+    }
+  }
+}
+.yellow-line {
+  width: 70%;
+  margin: auto;
+  margin-top: 6rem;
+}
